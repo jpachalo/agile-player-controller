@@ -1,6 +1,7 @@
 SystemJS.config({
   paths: {
     "npm:": "jspm_packages/npm/",
+    "github:": "jspm_packages/github/",
     "agile-player-controller/": "src/"
   },
   browserConfig: {
@@ -27,10 +28,11 @@ SystemJS.config({
 SystemJS.config({
   packageConfigPaths: [
     "npm:@*/*.json",
-    "npm:*.json"
+    "npm:*.json",
+    "github:*/*.json"
   ],
   map: {
-    "agile-app": "npm:agile-app@0.1.0"
+    "agile-player-controller-app": "github:agilecontent/agile-player-controller-app@master"
   },
   packages: {}
 });

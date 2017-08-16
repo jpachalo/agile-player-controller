@@ -1,16 +1,8 @@
 {
   "name": "agile-player-controller",
   "title": "agile-player-controller",
-  "description": "agile-player-controller",
   "version": "0.1.0",
   "license": "UNLICENSED",
-  "repository": {
-    "type": "svn",
-    "url": "http://developer.communi.tv/widgets/svn/agile-player-controller/trunk/"
-  },
-  "publishConfig": {
-    "registry": "http://sinopia.agile.int"
-  },
   "jspm": {
     "name": "agile-player-controller",
     "directories": {
@@ -19,16 +11,10 @@
     "format": "amd",
     "main": "agile-player-controller",
     "dependencies": {
-      "agile-app": "npm:agile-app@^0.1.0"
+      "agile-player-controller-app": "github:agilecontent/agile-player-controller-app@master"
     },
     "devDependencies": {
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.21"
     }
-  },
-  "dependencies": {
-    "agile-app": "^0.1.0"
-  },
-  "peerDependencies": {
-    "agile-app": "^0.1.0"
   }
 }
