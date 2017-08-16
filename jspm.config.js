@@ -32,7 +32,7 @@ SystemJS.config({
     "github:*/*.json"
   ],
   map: {
-    "agile-player-controller-app": "github:agilecontent/agile-player-controller-app@master"
+    "agile-app": "github:agilecontent/agile-player-controller-app@master"
   },
   packages: {}
 });
