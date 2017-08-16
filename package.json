@@ -11,7 +11,7 @@
     "format": "amd",
     "main": "agile-player-controller",
     "dependencies": {
-      "agile-player-controller-app": "github:agilecontent/agile-player-controller-app@master"
+      "agile-app": "github:agilecontent/agile-player-controller-app@master"
     },
     "devDependencies": {
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.21"

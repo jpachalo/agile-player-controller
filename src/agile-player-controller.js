@@ -1,5 +1,5 @@
 define([
-    'agile-player-controller-app',
+    'agile-app',
     './controller/Controller',
     './views/AppLayout'
 ], function (Agile, MainController, AppLayout) {
